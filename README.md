@@ -1,5 +1,7 @@
 # GitHub Issue MCP Assistant
 
+[![CI](https://github.com/sarim-aliii/github-issue-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sarim-aliii/github-issue-mcp/actions/workflows/ci.yml)
+
 An AI-powered GitHub issue management assistant built with **Model Context Protocol (MCP)**, **Google Gemini**, **TypeScript**, and the **GitHub REST API**.
 
 The assistant turns a short natural-language bug report into a structured GitHub issue while intelligently checking for existing duplicates before creating anything.
