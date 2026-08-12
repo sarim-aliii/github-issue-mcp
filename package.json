@@ -1,16 +1,27 @@
 {
   "name": "github-issue-mcp",
   "version": "1.0.0",
-  "description": "MCP server for generating and managing GitHub issues",
+  "description": "Reusable MCP server for generating, validating, and managing GitHub issues with AI-powered duplicate detection",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./server": "./dist/server/index.js",
+    "./server/stdio": "./dist/server/stdio.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    ".env.example",
+    "LICENSE"
+  ],
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
     "@google/genai": "^2.16.0",
