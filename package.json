@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
-    "github-issue-mcp": "./dist/server/cli.js"
+    "github-issue-mcp": "dist/server/cli.js"
   },
   "exports": {
     ".": "./dist/index.js",
