@@ -4,6 +4,9 @@
   "description": "Reusable MCP server for generating, validating, and managing GitHub issues with AI-powered duplicate detection",
   "type": "module",
   "main": "./dist/index.js",
+  "bin": {
+    "github-issue-mcp": "./dist/server/cli.js"
+  },
   "exports": {
     ".": "./dist/index.js",
     "./server": "./dist/server/index.js",
