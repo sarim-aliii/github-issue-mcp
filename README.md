@@ -953,6 +953,24 @@ Reliability:
 ✓ Daily quota detection
 ✓ Configurable retry policy
 ✓ Invalid JSON handling
+
+## Use as a Library
+
+GitHub Issue MCP can also be embedded into another Node.js application.
+
+### Create an MCP server
+
+```javascript
+import {
+  createGitHubIssueMcpServer
+} from "github-issue-mcp/server";
+
+const server =
+  createGitHubIssueMcpServer({
+    name: "my-github-issue-server",
+    version: "1.0.0"
+  });
+  
 📄 License
 
 This project is intended as a demonstration of an AI-powered, MCP-based GitHub issue management workflow.
