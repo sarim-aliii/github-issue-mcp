@@ -1,6 +1,7 @@
 {
   "name": "github-issue-mcp",
   "version": "1.1.1",
+  "mcpName": "io.github.sarim-aliii/github-issue-mcp",
   "description": "Reusable MCP server for generating, validating, and managing GitHub issues with AI-powered duplicate detection",
   "type": "module",
   "main": "./dist/index.js",
