@@ -3,6 +3,7 @@
 [![CI](https://github.com/sarim-aliii/github-issue-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sarim-aliii/github-issue-mcp/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/github-issue-mcp)](https://www.npmjs.com/package/github-issue-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-published-blue)](https://registry.modelcontextprotocol.io/)
+[![GitHub Issue MCP server](https://mcprush.com/badge/sarim-aliii-github-issue-mcp/card.svg)](https://mcprush.com/to/sarim-aliii-github-issue-mcp?ref=badge)
 
 An AI-powered GitHub issue management system built with **Model Context Protocol (MCP)**, **Google Gemini**, **TypeScript**, and the **GitHub REST API**.
 
